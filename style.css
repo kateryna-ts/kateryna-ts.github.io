@@ -943,17 +943,15 @@ body {
 }
 
 .hero-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    color: #333;
-    margin-bottom: 0.5rem;
+    color: #333;    margin-bottom: 0.5rem;
     letter-spacing: -0.01em;
 }
 
 .hero-subtitle {
-    font-size: 1.1rem;
-    color: #d4af37;
-    font-weight: 500;
+    font-size: 2rem;
+    color: #d4af37;    font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
