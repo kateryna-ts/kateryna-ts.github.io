@@ -881,6 +881,7 @@ body {
     height: 100%;
     background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -905,6 +906,23 @@ body {
     z-index: 2;
     position: relative;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.photo-contact-btn {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #d4af37;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.photo-contact-btn:hover {
+  color: #f4d03f;
+  transform: scale(1.05);
 }
 
 /* Style for when actual photo is used */
