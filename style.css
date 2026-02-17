@@ -1911,11 +1911,7 @@ section {
 .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 600;
-    background: linear-gradient(135deg, var(--color-orange-500), var(--color-orange-400));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 1rem;
+    color: var(--color-orange-500);    margin-bottom: 1rem;
 }
 
 /* Smooth hover effects for links */
